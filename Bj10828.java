@@ -7,6 +7,7 @@ public class Bj10828 {
     static class Stack {
         private int[] stack;
         private int size;
+
         public Stack() {
             stack = new int[10000];
             size = 0;
